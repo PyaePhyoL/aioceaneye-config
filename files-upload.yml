@@ -1,2 +1,11 @@
 server:
   port: 8000
+
+cloud:
+  aws:
+    credentials:
+      access-key: "{cipher}29f55026f764fc28ead475301a29d6b9dca3ece3fd6903923fb0628889bf9f0494022261b15b75128b6fe13e4b27a92c"
+      secret-key: "{cipher}2abf7fa629eb8f3f3054e1314ec1946dca8a7a5e163934825d5507176244644a09596839a7c33ba24554ae0e376e97ca4db3d8284603733ba245f40e01e62d85"
+    region:
+      static: ap-southeast-1
+    s3bucket: information-images
