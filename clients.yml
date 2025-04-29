@@ -1,3 +1,6 @@
+server:
+  port: 8080
+
 spring:
   datasource:
     url: jdbc:h2:mem:aioceaneye_db
@@ -41,6 +44,3 @@ info:
     name: "clients"
     description: "Clients (Company & Ship) Application in AiOceanEye"
     version: "1.0.0"
-
-server:
-  port: 8080
