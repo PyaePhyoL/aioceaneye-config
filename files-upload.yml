@@ -9,3 +9,28 @@ cloud:
     region:
       static: ap-southeast-1
     s3bucket: information-images
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      access: unrestricted
+  info:
+    env:
+      enabled: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "files-upload"
+    description: "Files upload Application in AiOceanEye"
+    version: "1.0.0"
