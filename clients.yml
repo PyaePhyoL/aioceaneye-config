@@ -3,7 +3,7 @@ server:
   datasource:
     url: jdbc:mysql://localhost:3306/aioceaneye_db
     username: root
-    password: "admin"
+    password: admin
   jpa:
     hibernate:
       ddl-auto: update
