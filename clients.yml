@@ -18,6 +18,7 @@ spring:
 cloud:
   aws:
     image-bucket: information-images
+    image-folder: companies
   
 eureka:
   client:
