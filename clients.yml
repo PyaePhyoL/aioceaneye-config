@@ -17,7 +17,7 @@ spring:
 
 cloud:
   aws:
-    image-bucket: information-images/companies
+    image-bucket: information-images
   
 eureka:
   client:
