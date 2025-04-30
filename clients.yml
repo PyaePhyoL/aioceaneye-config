@@ -14,6 +14,10 @@ spring:
   sql:
     init:
       mode: always
+
+cloud:
+  aws:
+    image-bucket: information-images
   
 eureka:
   client:
