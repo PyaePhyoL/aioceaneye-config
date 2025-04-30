@@ -17,8 +17,11 @@ spring:
 
 cloud:
   aws:
-    image-bucket: information-images
-    image-folder: companies
+    image-bucket:
+      name: "information-images"
+      folders:
+        companies: "companies"
+        vessels: "vessels"
   
 eureka:
   client:
