@@ -6,9 +6,12 @@ spring:
     url: jdbc:mysql://localhost:3306/aioceaneye_db
     username: root
     password: admin
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: validated
     show-sql: true
     defer-datasource-initialization: true
   sql:
