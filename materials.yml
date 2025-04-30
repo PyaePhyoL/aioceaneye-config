@@ -1,2 +1,48 @@
 server:
   port: 8020
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/aioceaneye_db
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+cloud:
+  aws:
+    image-bucket:
+      name: "information-images"
+      folders:
+        materials: "materials"
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      access: unrestricted
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: "materials"
+    description: "Materials Application in AiOceanEye"
+    version: "1.0.0"
