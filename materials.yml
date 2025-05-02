@@ -8,7 +8,7 @@ spring:
     password: admin
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: validate
     show-sql: true
     defer-datasource-initialization: true
   sql:
@@ -16,6 +16,7 @@ spring:
       mode: always
   flyway:
     enabled: true
+    baseline-version: 1
     baseline-on-migrate: true
 
 cloud:
