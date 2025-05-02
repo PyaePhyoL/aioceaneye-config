@@ -14,7 +14,7 @@ spring:
     enabled: true
     baseline-version: '101'
     baseline-on-migrate: true
-    baseline-description: 'Drone Service Baseline'
+    baseline-description: "Drone Service Baseline"
 
 cloud:
   aws:
