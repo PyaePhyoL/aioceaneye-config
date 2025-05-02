@@ -13,8 +13,7 @@ spring:
   flyway:
     enabled: true
     table: drone_service_migrations
-    sql-migration-prefix: DS_V
-    baseline-version: '1'
+    baseline-version: '101'
     baseline-on-migrate: true
     baseline-description: "Drone Service Schema Baseline"
 
