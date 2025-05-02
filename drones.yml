@@ -12,7 +12,7 @@ spring:
     show-sql: true
   flyway:
     table: flyway_drone_migrations
-    sql-migration-prefix: DV_
+    sql-migration-prefix: 'DV'
     baseline-version: '101'
     baseline-on-migrate: true
 
