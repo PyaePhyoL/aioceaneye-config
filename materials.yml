@@ -11,7 +11,8 @@ spring:
       ddl-auto: validate
     show-sql: true
   flyway:
-    enabled: true
+    table: flyway_material_migrations
+    sql-migration-prefix: 'MV'
     baseline-version: '201'
     baseline-on-migrate: true
 
