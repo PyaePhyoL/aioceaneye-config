@@ -16,7 +16,6 @@ spring:
     baseline-on-migrate: true
     baseline-description: "Drone Service Baseline"
     out-of-order: true
-    ignore-migration-patterns: '*:ignored'
 
 cloud:
   aws:
