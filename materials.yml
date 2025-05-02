@@ -12,6 +12,7 @@ spring:
     show-sql: true
   flyway:
     enabled: true
+    table: material_migrations
     baseline-version: '201'
     baseline-on-migrate: true
 
