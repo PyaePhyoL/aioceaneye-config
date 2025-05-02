@@ -9,7 +9,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-      default_schema: inventory_schema
+      default_schema: drone_service
     show-sql: true
   flyway:
     schemas: drone_service
