@@ -14,7 +14,7 @@ spring:
     enabled: true
     baseline-version: '201'
     baseline-on-migrate: true
-    baseline-description: "Material Service Baseline"
+    out-of-order: true
 
 cloud:
   aws:
