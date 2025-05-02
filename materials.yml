@@ -12,8 +12,9 @@ spring:
     show-sql: true
   flyway:
     enabled: true
-    baseline-version: '1'
+    baseline-version: 'MS_0'
     baseline-on-migrate: true
+    baseline-description: "Material Service Schema Baseline"
 
 cloud:
   aws:
