@@ -10,11 +10,6 @@ spring:
     hibernate:
       ddl-auto: validate
     show-sql: true
-  flyway:
-    table: flyway_drone_migrations
-    sql-migration-prefix: 'DV'
-    baseline-version: '101'
-    baseline-on-migrate: true
 
 cloud:
   aws:
