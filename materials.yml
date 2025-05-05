@@ -10,8 +10,11 @@ spring:
     hibernate:
       ddl-auto: none
     show-sql: true
-
-
+  flyway:
+    table: flyway_material_migrations
+    baseline-version: 0
+    baseline-on-migrate: true
+    
 cloud:
   aws:
     image-bucket:
