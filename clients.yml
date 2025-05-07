@@ -3,7 +3,7 @@ server:
   
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/aioceaneye_db?characterEncoding=UTF-8&useUnicode=yes&connectionCollation=utf8mb4_unicode_ci
+    url: jdbc:mysql://localhost:3306/aoe_clients_db?characterEncoding=UTF-8&useUnicode=yes&connectionCollation=utf8mb4_unicode_ci
     username: root
     password: admin
   jpa:
