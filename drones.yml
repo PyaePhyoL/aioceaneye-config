@@ -17,7 +17,7 @@ spring:
           characterEncoding: utf8mb4
           useUnicode: yes
   flyway:
-    table: flyway_drone_migrations
+    enabled: true
     baseline-version: 0
     baseline-on-migrate: true
 
